@@ -1,0 +1,19 @@
+On the Nature of Attention Sink that Shapes Decoding Strategy in Omni-LLMs
+
+model/modeling_qwen2_5_omni.py adapts Qwen2.5-Omni from Hugging Face
+Transformers (the Qwen team, Alibaba Group, and Hugging Face contributors;
+Apache-2.0). Pretrained model weights retain their upstream license.
+
+json/avhbench.json contains the Yes/No subset of AVHBench annotations.
+Source: https://github.com/kaist-ami/AVHBench
+No explicit dataset license was found in the official repository.
+
+json/dailyomni.json contains converted DailyOmni annotations by Ziwei Zhou,
+Rui Wang, Zuxuan Wu, and Yu-Gang Jiang. Changes: conversation-format conversion,
+sample IDs, and relative media paths.
+Source: https://huggingface.co/datasets/liarliar/Daily-Omni
+License: CC BY-NC-SA 4.0
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Dataset annotations and media remain subject to their original terms.
+This folder contains no model weights or video/audio media.

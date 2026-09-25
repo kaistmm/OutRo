@@ -1,0 +1,8 @@
+# Install a CUDA-compatible PyTorch build first.
+torch==2.6.0
+transformers==4.52.3
+accelerate==1.11.0
+qwen-omni-utils[decord]==0.0.8
+threadpoolctl
+tqdm
+# Install separately after torch: flash-attn==2.7.4.post1 --no-build-isolation
