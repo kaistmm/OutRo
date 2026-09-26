@@ -3,8 +3,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2603.14337-b31b1b.svg)](https://arxiv.org/abs/2603.14337)
 
 Official implementation of **OutRo**, accepted at **NeurIPS 2026**.  
-OutRo is a training-free inference-time method for Omni-LLMs.
 
+OutRo is a training-free inference-time method for Omni-LLMs.  
 This release includes AVHBench and DailyOmni inference. The default model
 is Qwen2.5-Omni-3B. A single `--outro` flag enables both components of OutRo from the paper.
 Without the flag, inference uses the original Qwen2.5-Omni baseline.
