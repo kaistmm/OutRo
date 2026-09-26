@@ -40,9 +40,6 @@ audio-driven video hallucination, video-driven audio hallucination, and AV match
   ...
 ```
 
-To use another annotation file in the same format, pass `--question-file`.
-The official combined `QA.json` is also accepted; the runner selects Yes/No labels.
-
 ### Inference
 
 Baseline:
