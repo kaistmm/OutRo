@@ -74,7 +74,6 @@ python eval/eval_avhbench.py outputs/avhbench_3b_outro.jsonl
 A complete run reports `evaluated: 5302` and `missing: 0`.
 The evaluator reports overall and per-task accuracy in percent, counts invalid
 responses as incorrect.
-For custom annotations, pass the same file to evaluation with `--data`.
 
 ## DailyOmni
 
