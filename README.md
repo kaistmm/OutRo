@@ -86,7 +86,6 @@ and extract it under your Daily-Omni directory. See the
 
 The included [json/dailyomni.json](json/dailyomni.json) contains the 1,197-question. Set `--video-dir` to the Daily-Omni
 root containing `Videos/<video_id>/<video_id>_video.mp4`.
-The bundled JSON uses paths relative to the dataset root, so no path editing is needed.
 
 ```text
 /path/to/Daily-Omni/
